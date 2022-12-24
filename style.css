@@ -1,0 +1,60 @@
+html,body
+{
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+
+}
+.container
+{
+    height: 100%;
+   display: grid;
+   grid-gap: 2px;
+   grid-template-columns: 400px 1fr 1fr;
+   grid-template-rows: 150px 1fr 1fr 150px;
+   text-align: center;
+
+}
+
+.header
+{
+    background-color: #7763CC;
+    grid-column: span 3;
+    
+    
+}
+.sidebar
+{
+    background-color:#38CEC6;
+    grid-row: span 2;
+
+   
+    
+}
+.content-1
+{
+    background-image: linear-gradient( 145deg,  #7763CC 5%,#467DEA 50%,#38CEC6 );
+    grid-column: span 2;
+}
+
+.content-2
+{
+    background-image: linear-gradient( 145deg,  #7763CC 5%,#467DEA 50%,#38CEC6 );
+}
+
+.content-3
+{
+    background-image: linear-gradient( 145deg,  #7763CC 5%,#467DEA 50%,#38CEC6 );
+}
+.footer
+{
+    background-color: #7763CC;
+    grid-column: span 3;
+
+}
+
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
